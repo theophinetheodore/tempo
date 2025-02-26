@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Tempo
+Comment=Timer
+Exec=/usr/bin/tempo
+#Icon=/usr/lib/codex/codex.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;
+
