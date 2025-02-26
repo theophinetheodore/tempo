@@ -21,6 +21,7 @@ def countdown_timer():
         root.after(1000, countdown_timer)
     else:
         timer.config(text="--:--:--")
+        start.config(text="START")
         os.system('notify-send -a timey "time\'s up!"')
 
 def handle_timer():
