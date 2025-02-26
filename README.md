@@ -2,7 +2,8 @@
 
 ![tempo](tempo.webp)
 
-a silly timer application made with python and tkinter.
+a silly timer application made with python and tkinter.  
+(there are some probs, but i'm not gonna fix it, i don't care)
 
 ## installation
 
