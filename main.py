@@ -84,7 +84,7 @@ def create_inner_box(parent, text_var):
 ###################################################
 
 root = tk.Tk()
-root.title("Counter Application")
+root.title("Tempo")
 root.wm_geometry('1200x700')
 root.configure(bg="black")
 
