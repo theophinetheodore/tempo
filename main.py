@@ -19,10 +19,13 @@ def countdown_timer():
         total_time -= timedelta(seconds=1)
 
         root.after(1000, countdown_timer)
+
+        if total_time.total_seconds() == 0:
+            start.config(text="START")
+            os.system('notify-send -a tempo "time\'s up!"')
     else:
         timer.config(text="--:--:--")
         start.config(text="START")
-        os.system('notify-send -a timey "time\'s up!"')
 
 def handle_timer():
     global total_time

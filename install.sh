@@ -2,12 +2,12 @@
 
 current_dir=$(pwd)
 
-sudo cp -ar "$current_dir" /usr/lib/
+cp -ar "$current_dir" /usr/lib/
 
-echo -e '#!/bin/bash\npython /usr/lib/tempo/main.py' | sudo tee -a /usr/bin/tempo> /dev/null
-sudo chmod +x /usr/bin/tempo
+echo -e '#!/bin/bash\npython /usr/lib/tempo/main.py' > /usr/bin/tempo
+chmod +x /usr/bin/tempo
 
-sudo cp /usr/lib/tempo/tempo.desktop /usr/share/applications
-sudo chmod +x /usr/share/applications/tempo.desktop
+cp /usr/lib/tempo/tempo.desktop /usr/share/applications
+chmod +x /usr/share/applications/tempo.desktop
 
 echo "Installation complete."

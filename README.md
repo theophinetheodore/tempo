@@ -10,7 +10,7 @@ a silly timer application made with python and tkinter.
 ```
 git clone https://github.com/theoisdumb/tempo.git
 cd tempo
-./install.sh
+sudo ./install.sh # run sudo ./uninstall.sh for uninstallation.
 ```
 
 ## dependencies
