@@ -110,7 +110,7 @@ image_label.image = photo
 image_label.place(relx=1.0, rely=0.0, anchor='ne')
 
 timer = tk.Label(main_frame, text="--:--:--",
-               font=("Barlow Condensed", 80), bg="black", fg="gray")
+               font=("Barlow Condensed", 150), bg="black", fg="gray")
 timer.place(relx=0.5, rely=0.5, anchor='center')
 
 start = tk.Button(main_frame, text="START", bg="black", fg="gray",
